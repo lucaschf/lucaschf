@@ -31,6 +31,8 @@ My playground for applying architecture end to end, in production at home.
 - Measuring coupling (strength × distance × volatility) before splitting or merging modules
 - Writing ADRs so decisions outlive the people who made them
 
+📚 I write about these in my [knowledge base](https://lucaschf.github.io/knowledge-base/) (in Portuguese) — strategic DDD, boundaries, coupling, with HomeFlix as a case study.
+
 #### Background
 
 Postgraduate degree in Software Architecture · Degree in Internet Systems Technology

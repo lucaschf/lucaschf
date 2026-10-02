@@ -10,13 +10,17 @@ At work I'm the sole maintainer of a **multi-tenant KYC / anti-fraud platform** 
 
 My playground for applying architecture end to end, in production at home.
 
-- **9 bounded contexts**, modular monolith with Screaming + Clean Architecture
-- Modules never import each other: cross-context reads go through **read ports + ACL**, reactions through **domain events**
+- **11 bounded contexts**, modular monolith with Screaming + Clean Architecture
+- Cross-context reads go through **consumer-owned ports + ACL adapters**, reactions through **domain events**
 - **36 ADRs** documenting every significant decision ([docs](https://lucaschf.github.io/homeflix/))
-- 139 REST endpoints · 3,200+ tests · HLS streaming, automatic intro/credits detection, multi-profile ACL
+- 150+ REST endpoints · 4,400+ tests · HLS streaming, automatic intro/credits detection, per-profile age and library gates
 - React + TypeScript frontend: [homeflix-web](https://github.com/lucaschf/homeflix-web)
 
 `Python 3.12` `FastAPI` `SQLAlchemy 2` `PostgreSQL` `React` `FFmpeg`
+
+#### Also
+
+- 🖨️ [Riso Themes](https://github.com/lucaschf/riso-themes) — dark VS Code themes printed like a risograph, published on the Marketplace
 
 ---
 
